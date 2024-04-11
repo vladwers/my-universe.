@@ -47,8 +47,6 @@ body{
     padding: 0 100px;
 
     font-family: "Concert One", sans-serif;
-
-    position: relative;
     
 
 }
@@ -103,7 +101,7 @@ body{
     justify-content: center;
     align-items: start;
     width: 100%;
-    height: 400px;
+    height: 100%;
 
     margin-top: 20px;
     
