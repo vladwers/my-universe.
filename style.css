@@ -1,0 +1,117 @@
+@import url('https//fonts.goohleapis.com/css? family=Poppins:400,500,600,700&display=swap');
+body{
+    background-image: linear-gradient(180deg, #e70e3f, #c00074, #66159c );
+
+    width: 100%;
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.image-1{
+    width: 85%;
+    height: 85%;
+    
+}
+
+.content-1{
+    width: 100%;
+    height: 400px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text-1{
+
+    width: 100%;
+   
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.text-1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 100px;
+
+    font-family: "Concert One", sans-serif;
+
+    position: relative;
+    
+
+}
+.text-1 h1 span{
+    position: relative;
+    color: rgb(48, 81, 80);
+
+    animation: displayText 9s infinite;
+    animation-delay: calc(-3s * var(--i));
+}
+
+@keyframes displayText
+{
+    0%{
+        display: inline-block;
+    }
+
+    33.33%,100%{
+        display: none;
+    }
+}
+
+.text-1 h1 span::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(0, 255, 119);
+    overflow: hidden;
+    border-right: 3px solid rgb(0, 255, 119);
+
+    filter: drop-shadow(0 0 5px rgb(0, 255, 119)) 
+    drop-shadow(0 0 25px rgb(0, 255, 119) );
+
+    animation: animate 3s linear infinite;
+}
+@keyframes animate {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+
+
+
+
+.content-2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 400px;
+
+    margin-top: 20px;
+    
+}
+.text-2{
+    width: 65%;
+
+    color: rgb(255, 255, 255);
+    font-family: "Concert One", sans-serif;
+    font-weight: bold;
+}
