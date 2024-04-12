@@ -137,8 +137,8 @@ body{
     height: 200px;
     
     position: relative;
-    left: 60px;
-    top: 450px;
+    left: -100px;
+    top: -20px;
 }
 
 .cl-2{
@@ -147,7 +147,7 @@ body{
     
     position: relative;
     left: 80px;
-    bottom: 130px;
+    top: 180px;
 }
 
 .cl-3{
@@ -157,5 +157,5 @@ body{
     
     position: relative;
     right: 130px;
-    bottom: 130px;
+    bottom: 480px;
 }
