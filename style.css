@@ -3,7 +3,7 @@ body{
     background-image: linear-gradient(180deg, #e70e3f, #c00074, #66159c );
 
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 *{
@@ -110,13 +110,14 @@ body{
     justify-content: center;
     align-items: start;
     width: 100%;
-    height: 200px;
+    height: 400px;
 
 /*     margin-top: 20px; */
     
 }
 .text-2{
     width: 65%;
+    height: 100%;
 
     color: rgb(255, 255, 255);
     font-family: "Rubik", sans-serif;
