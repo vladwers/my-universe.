@@ -39,6 +39,9 @@ body{
     display: flex;
     align-items: start;
     justify-content: center;
+
+    position: relative;
+    bottom: 40px;
 }
 .text-1 h1{
     color: rgb(255, 255, 255);
@@ -46,7 +49,7 @@ body{
     font-weight: 600;
     padding: 0 100px;
 
-    font-family: "Concert One", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 
     position: relative;
     top: 0;
