@@ -111,7 +111,9 @@ body{
     align-items: start;
     width: 100%;
     height: 400px;
-
+    
+     position: relative;
+    bottom: 20px; 
  
     
 }
@@ -123,8 +125,6 @@ body{
     font-family: "Rubik", sans-serif;
     font-size: 15px;
 
-    position: relative;
-    bottom: 20px; 
 }
 
 
